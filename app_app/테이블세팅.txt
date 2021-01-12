@@ -1,0 +1,26 @@
+테이블1-회원가입(tbl_mb)
+아이디 pk, (mb_id)
+비밀번호, 	(mb_pw)
+이메일, (mb_email)
+프로필이미지, (mb_imagepath)
+이름, (mb_name)
+전화번호,(mb_phonenum)
+생년월일 (mb_birth)
+추가한 사람(mb_addPerson1)
+추가한 사람(mb_addPerson2)
+추가한 사람(mb_addPerson3)
+
+테이블2 - 등록한 위치정보에 대한 테이블	(tbl_loc)
+아이디 pk,		(loc_id)
+위치정보(등록),	(loc_place)	flag설정
+tracking 위치정보,(loc_track) flag설정
+위도,(loc_lati)
+경도,(loc_long)
+날짜/시간,(loc_date)
+
+테이블3 - 내가 설정한 바로가기 메뉴에 대한 테이블(동기화)	(tbl_settings)
+아이디 pk,(set_id)
+내가 설정한 바로가기메뉴(set_num)
+내가 설정한 바로가기메뉴(set_num)
+내가 설정한 바로가기메뉴(set_num)
+내가 설정한 바로가기메뉴(set_num)

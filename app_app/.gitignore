@@ -1,0 +1,4 @@
+app/build/
+.idea/
+.gradle/
+app/src/main/java/com/example/dteamproject/Common/CommonMethod

@@ -1,0 +1,6 @@
+app_app_참고사항
+
+app/build/
+.idea/
+.gradle/
+
