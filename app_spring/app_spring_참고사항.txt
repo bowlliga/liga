@@ -1,0 +1,24 @@
+app_spring 참고사항
+Spring 필요한것만 올리자 -> .metadata등등은 필요 없음
+target/ 만 올린 후 다시 ignore 편집
+
+
+.settings/
+src/test/
+.classpath
+.project
+.springBeans
+
+저장 후 터미널 (설정에서 두번째 왼쪽) 클릭
+
+--ignore case를 다시 올려주는 것?
+git rm -r . --cached 엔터
+
+--??
+git add . 엔터
+
+커밋(ignore 파일 수정)
+
+ignore에 추가
+/.metadata/
+/Servers/
